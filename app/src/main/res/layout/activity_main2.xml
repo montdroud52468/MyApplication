@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/trama"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar"
+        >
+
+
+        <EditText
+            android:id="@+id/IngCRC"
+            android:layout_width="297dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="271dp"
+            android:layout_height="wrap_content"
+            android:hint="CRC En binario"
+            android:inputType="number"
+            android:maxLength="16"/>
+        <EditText
+            android:id="@+id/IngValor"
+            android:layout_width="297dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="271dp"
+            android:layout_height="wrap_content"
+            android:hint="Mensensaje"
+            android:maxLength="20"/>
+        <EditText
+            android:id="@+id/IngETX"
+            android:layout_width="297dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="271dp"
+            android:layout_height="wrap_content"
+            android:hint="ETX En binario"
+            android:inputType="number"
+            android:maxLength="8"/>
+        <EditText
+            android:id="@+id/IngCabecera"
+            android:layout_width="297dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="271dp"
+            android:layout_height="wrap_content"
+            android:hint="Cabecera En binario"
+            android:inputType="number"
+            android:maxLength="8"/>
+        <EditText
+            android:id="@+id/SYN"
+            android:layout_width="297dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="271dp"
+            android:layout_height="wrap_content"
+            android:hint="SYN En binario"
+            android:inputType="number"
+            android:maxLength="8"/>
+        <EditText
+            android:id="@+id/IngSOH"
+            android:layout_width="297dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="271dp"
+            android:layout_height="wrap_content"
+            android:hint="SOH En binario"
+            android:inputType="number"
+            android:maxLength="8"/>
+        <EditText
+            android:id="@+id/IngSTX"
+            android:layout_width="297dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="271dp"
+            android:layout_height="wrap_content"
+            android:hint="STX En binario"
+            android:inputType="number"
+            android:maxLength="8"/>
+        <Button
+            android:id="@+id/Aceptar1"
+            android:layout_width="297dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="271dp"
+            style="@android:style/Widget.Material.Button.Colored"
+            android:layout_height="wrap_content"
+            android:text="TRADUCIR"
+            />
+
+        <EditText
+            android:id="@+id/Res"
+            android:layout_width="297dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="271dp"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/Res2"
+            android:layout_width="297dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="271dp"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/Res3"
+            android:layout_width="297dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="271dp"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/Res4"
+            android:layout_width="297dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="271dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+
+            />
+        <EditText
+            android:id="@+id/Res5"
+            android:layout_width="297dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="271dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+
+            />
+        <EditText
+            android:id="@+id/Res6"
+            android:layout_width="297dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="271dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+
+            />
+        <EditText
+            android:id="@+id/Res7"
+            android:layout_width="297dp"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="271dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
